@@ -5,6 +5,8 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
+//ihfbgiewhrbiyebriohbeiryg
+
 package org.usfirst.frc.team3090.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
@@ -21,6 +23,7 @@ import edu.wpi.first.wpilibj.drive.DifferentialDrive;
  * directory.
  */
 public class Robot extends IterativeRobot {
+	int x = 45678;
 	private DifferentialDrive m_robotDrive
 			= new DifferentialDrive(new Spark(0), new Spark(1));
 	private Joystick m_stick = new Joystick(0);
